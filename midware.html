@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Midware</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<h1></h1>
+	
+	<img src="logo.png" class="w3-round" alt="">
+	
+	<p>Este programa muestra en la barra de progreso el porcentaje asociado a un valor ingresado por el usuario<p/>
+	
+	<h2>Instrucciones de uso</h2>
+	<p>1.- Ingrese el valor</p>
+	<p>2.- Ingrese el total</p>
+	<p>3.- Seleccione el botón para actualizar la barra de progreso</p>
+	
+	<hr />
+	
+	<form action="">
+		<input type="text" id="numero1" placeholder="Valor">
+		<br />
+		<br />
+		<input type="text" id="numero2" placeholder="Total">
+		<br />
+		<br />
+		<input type="button" value="Actualizar barra" onclick="actualizar();">
+		<br />
+	</form>
+	
+	<p></p>
+	
+	<div id="estado_barra">
+		<div id="barra"></div>
+	</div>
+	
+	<script src="midware.js"></script>
+	</body>
+</html>
